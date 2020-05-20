@@ -1,0 +1,19 @@
+.skillbox {
+    border: 10px solid white;
+}
+
+.logoskills {
+    height: 150px;
+    width: 150px;
+}
+
+.projects {
+    background-color: #343a40;
+    height: 300px;
+    width: 300px;
+    border: 10px solid white;
+}
+
+.special-color {
+    background-color: 64ffda;
+}
