@@ -7,13 +7,11 @@
     width: 150px;
 }
 
-.projects {
-    background-color: #343a40;
-    height: 300px;
-    width: 300px;
-    border: 10px solid white;
+.card {
+    margin: 20px;
 }
 
-.special-color {
-    background-color: 64ffda;
+.card-img-top {
+    height: 200px;
+    width: 200px;
 }
