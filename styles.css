@@ -24,24 +24,10 @@
     text-align: center;
     margin: 5px 5px;
     border-radius: 50%;
+    color: white;
 }
 
 #connect:hover {
     opacity: 0.7;
-}
-
-.fa-facebook {
-    color: white;
-}
-
-.fa-twitter {
-    color: white;
-}
-
-.fa-linkedin {
-    color: white;
-}
-
-.fa-instagram {
-    color: white;
+    color: #00aff0
 }
