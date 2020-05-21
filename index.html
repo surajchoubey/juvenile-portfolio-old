@@ -9,8 +9,10 @@
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     <link rel="stylesheet" href="styles.css">
     <title>Suraj Choubey</title>
     <link rel="icon" type="image/png" href="images/logo.png">
@@ -19,31 +21,45 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
-        <div class=container-fluid>
-            <a class="navbar-brand" href="#"><img src="images/logo.png" height="30%" width="30%"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img width="30%" src="images/logo.png" /></a>
 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+
+        </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#AboutMe">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#Projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#Experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#info">Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about_me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">Skill set</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- I have left space to add image carousels which i believe ig i can learn quickly LOL-->
-    <br><br>
     <div class="container-fluid">
         <div class="row jumbotron" style="background: #05fcba !important">
-            <div class="col-12 col-sm-12 col-md-8 order-sm-last align-self-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-8 order-sm-last align-self-center">
                 <h2>
                     <p id="AboutMe">About Me</p>
                 </h2>
@@ -54,7 +70,7 @@
                 </p>
 
             </div>
-            <div class="col col-sm-12 col-md order-sm-first" align="center">
+            <div class="col col-sm-12 col-md-6 col-lg-4 order-sm-first" align="center">
                 <br>
                 <img src="images/linuxDP.jpg" height="300px" width="300px" style="border-radius: 50%">
                 <br>
@@ -180,53 +196,60 @@
             </div>
         </div>
     </div>
-    <div class="row jumbotron special-color" style="background: #05fcba !important">
-        <div class="container">
+    <div class="row jumbotron" style="background: #05fcba !important; margin-bottom: 0px; margin-right: 0px;">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md align-self-center" align="center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 align-self-center" align="center">
                     <br>
                     <img src="images/linuxDP.jpg" height="300px" width="300px" style="border-radius: 50%">
                     <br>
-                    <br>
                 </div>
-                <div class="col-12 col-sm-12 col-md-8 align-self-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-8 align-self-center">
                     <h2>
-                        <p id="ReadMore">A Little More about Me!</p>
+                        <p id="AboutMe">About Me</p>
                     </h2>
                     <p>
                         Hello, I am <b>Suraj Choubey</b>. <br>I am a <b>Competitive Coder</b>, a <b>Frontend Web Developer</b> and a <b>Cyber Security Enthusiast</b>. I am a sophomore at BITS Pilani KK Birla Goa Campus and currently I am pursuing MSc
                         Mathematics there itself currently working as a Senior Developer at Developers' Society BITS Goa. I also know App Development Basics and currently it is in learning phase. I also am well versed in designing logos and posters using
                         Adobe Photoshop.<br>
-                        <a href="#"> Read more.</a>
+                        <a href="#"> Back to top</a>
                     </p>
 
                 </div>
-
             </div>
         </div>
     </div>
 
+    <div class="footer bg-dark">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4 col-sm-4 col-md-2">
+                    ok
+                </div>
+                <div class="col-8 col-sm-8 col-md-4">
+                    ok
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 align-items-center" align="center">
+                    <br>
+                    <a href="#" class="fa fa-facebook" id="connect"></a>
+                    <a href="#" class="fa fa-twitter" id="connect"></a>
+                    <a href="#" class="fa fa-instagram" id="connect"></a>
+                    <a href="#" class="fa fa-github" id="connect"></a>
+                    <a href="#" class="fa fa-linkedin" id="connect"></a>
+                    <a href="#" class="fa fa-skype" id="connect"></a>
+                    <br>
+                    <br>
 
-
-
-
-    <footer class="bg-dark">
-        <div class="container">
-
+                </div>
+            </div>
         </div>
-    </footer>
-
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="images/https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="images/https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="images/https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-twitter"></a>
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-twitter"></a>
 
 </body>
 

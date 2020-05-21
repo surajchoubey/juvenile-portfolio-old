@@ -8,10 +8,40 @@
 }
 
 .card {
-    margin: 20px;
+    margin: 13px;
 }
 
 .card-img-top {
     height: 200px;
     width: 200px;
+}
+
+#connect {
+    padding: 10px 20px;
+    font-size: 40px;
+    width: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px 5px;
+    border-radius: 50%;
+}
+
+#connect:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-linkedin {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
 }
