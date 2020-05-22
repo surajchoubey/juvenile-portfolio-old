@@ -1,6 +1,4 @@
-.skillbox {
-    border: 10px solid white;
-}
+.skillbox {}
 
 .logoskills {
     height: 150px;
@@ -64,4 +62,12 @@
     text-shadow: 3px 3px 10px #000000;
     padding-bottom: 1rem;
     color: white;
+}
+
+.typingEffect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 25%;
 }
